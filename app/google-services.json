@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "185929239652",
-    "project_id": "unnati-9f484",
-    "storage_bucket": "unnati-9f484.appspot.com"
+    "project_number": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:185929239652:android:56c9c02c068dba8f4ee371",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "com.example.unnati2"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDnZig79X7dNWJY090fH2adFafQmCxPNwk"
+          "current_key": "" //Use your own
         }
       ],
       "services": {

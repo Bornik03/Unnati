@@ -84,7 +84,6 @@ fun Greeting(fusedLocationClient: FusedLocationProviderClient, text1: String) {
     val textColor = MaterialTheme.colorScheme.onBackground
     var c by remember { mutableStateOf(false) }
 
-    // This will recheck the location status every time the composable recomposes
     val locationManager = context.getSystemService(Context.LOCATION_SERVICE) as LocationManager
     var isLocationEnabled by remember { mutableStateOf(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) }
 

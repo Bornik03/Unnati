@@ -53,7 +53,7 @@ class AllCompo : ComponentActivity() {
     }
     override fun onBackPressed() {
         super.onBackPressed()
-        finishAffinity() // Close all activities and exit the app
+        finishAffinity()
     }
 }
 @Preview
@@ -102,7 +102,7 @@ fun Compo(){
                     Button(
                         onClick = { c = true },
                         shape = CircleShape,
-                        modifier = Modifier.size(100.dp).padding(bottom = 40.dp, top = 8.dp, start = 20.dp, end = 10.dp) // Add padding
+                        modifier = Modifier.size(100.dp).padding(bottom = 40.dp, top = 8.dp, start = 20.dp, end = 10.dp)
                     ) {
                         Icon(
                             painter = painterResource(id = R.drawable.p),

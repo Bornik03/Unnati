@@ -59,7 +59,7 @@ fun SignupScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(backgroundColor)  // Set background color
+            .background(backgroundColor)
             .padding(16.dp)
     ) {
         LazyColumn(

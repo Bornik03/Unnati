@@ -47,7 +47,7 @@ class ResultActivity : ComponentActivity() {
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
 fun MainContent(webView: WebView, text1: String, text2: String, text3: String, web: String) {
-    var url by remember { mutableStateOf("https://www.google.com/search?sca_esv=f0b39c056d6199a4&sca_upv=1&rlz=1C1RXQR_enIN1109IN1109&tbs=lf:1,lf_ui:9&tbm=lcl&sxsrf=ADLYWILEbX7NfNDMjBISdqRkTluROKYN7A:1716463227198&q=$text1+near+$text2&rflfq=1&num=10&sa=X&ved=2ahUKEwiw-rTn06OGAxUrT2cHHS7wBD8QjGp6BAgcEAE&biw=1280&bih=632&dpr=1.5#rlfi=hd:;si:;mv:[];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3fast_1food_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3south_1indian_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAklO,lf:1,lf_ui:9") }
+    var url by remember { mutableStateOf("") } //Sensitive Content hence removed
     val backDispatcher = LocalOnBackPressedDispatcherOwner.current?.onBackPressedDispatcher
     val activity = LocalContext.current as? Activity
     if(web!="")
